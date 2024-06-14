@@ -1,0 +1,100 @@
+/* Reset and basic styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.match-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.team img {
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.team h3 {
+    font-size: 1.5em;
+}
+
+.vs {
+    font-size: 2em;
+    color: #999;
+    margin: 0 20px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h4 {
+    font-size: 1.2em;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar div {
+    height: 100%;
+}
+
+.england-progress {
+    width: 97%; /* Adjust width as per the percentage */
+    background-color: #4CAF50; /* Green color for England */
+}
+
+.oman-progress {
+    width: 3%; /* Adjust width as per the percentage */
+    background-color: #f44336; /* Red color for Oman */
+}
+
+.live-score-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Added margin top for spacing */
+}
+
+.live-score-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
